@@ -18,13 +18,13 @@ the entry signal might be enhanced using other smoothing techniques, or multiple
 
 In below coding sample, we use 'on_bulkdatafeed' API as demonstration. Suppose we are looking at 1 day bar, and choose the fast and slow period as 7-day and 14-day respectively. Also, we set 10% for both take profit and stop loss. The backtest setting is initialized as follows.
 
-Strategy Name = 'demo_MA'
-Backtest Start Month = '2017-01'
-Backtest End Month = '2017-12'
-Data Interval = 1 day
-Initial Capital = 100000
-Base Currency = HKD
-Leverage = 50
-Transaction Cost = 0
-Allow Short Sell = True
+Strategy Name = 'demo_MA' <br>
+Backtest Start Month = '2017-01'<br>
+Backtest End Month = '2017-12'<br>
+Data Interval = 1 day<br>
+Initial Capital = 100000<br>
+Base Currency = HKD<br>
+Leverage = 50<br>
+Transaction Cost = 0<br>
+Allow Short Sell = True<br>
 Instruments = ['HKXHKD']
